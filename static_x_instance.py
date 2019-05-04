@@ -34,7 +34,7 @@ b = A()
 print(f"A({a.x}, {a.y}) <=> B({b.x}, {b.y})")
 print(f"A.x = {A.x_()}")
 
-# [Running] python -u "d:\dev\test\python\static-test.py"
+# [Running] python -u "d:\dev\test\python\static_x_instance.py"
 # A.x = 0
 # A(1, 2) <=> B(1, 0)
 # A.x = 1
