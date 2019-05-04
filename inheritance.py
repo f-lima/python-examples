@@ -65,6 +65,7 @@ print(f"DomesticAnimal is subclass of Person? {issubclass(DomesticAnimal, Person
 print(f"DomesticAnimal is subclass of Animal? {issubclass(DomesticAnimal, Animal)}")
 print('')
 print(f"{john.name} is instance of Person? {isinstance(john, Person)}")
+print(f"{john.name} is instance of Human? {isinstance(john, Human)}")
 print(f"{john.name} is instance of Animal? {isinstance(john, Animal)}")
 print(f"{john.name} is instance of DomesticAnimal? {isinstance(john, DomesticAnimal)}")
 print('')
@@ -85,6 +86,7 @@ print('')
 # DomesticAnimal is subclass of Animal? True
 
 # John Doe is instance of Person? True
+# John Doe is instance of Human? True
 # John Doe is instance of Animal? True
 # John Doe is instance of DomesticAnimal? False
 
