@@ -105,4 +105,5 @@ print('')
 8. remove intentionally an object from memory (using del)
 9. create a method or constructor with optional parameters (Animal.__init__)
 10. overwrite a method defined in a base class (Human.__init__)
+11. gets the class name of an object (using __class__.__name__)
  """
